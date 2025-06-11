@@ -16,7 +16,7 @@ header {
   font-size: 25px;
   font-weight: bolder;
   box-shadow: 0 2px rgb(146, 146, 146);
-  height: 100px;
+  height: 150px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -24,6 +24,15 @@ header {
 
 main p {
   font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  color: white;
+  background-color: #1A1A1A;
+  height: 150px;
+  margin-top: 100px;
 }
 
 /* container */
@@ -89,12 +98,20 @@ main p {
 }
 
 
-/* justify-content */
+/* justify-content / align-items */
 .justify-content-around {
   justify-content: space-around;
 }
 
-/* padding/margin */
+.align-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+/* padding / margin */
 .p-10 {
   padding: 10px;
 }
@@ -103,9 +120,20 @@ main p {
   padding: 25px;
 }
 
+.pr-5 {
+  padding-right: 5px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
 
 .mt-150 {
   margin-top: 150px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 /* background-color */
@@ -148,6 +176,10 @@ main p {
   font-size: 40px;
 }
 
+.size-20 {
+  font-size: 25px;
+}
+
 /* text-effects  */
 .text-w {
   color: white;
@@ -163,4 +195,8 @@ main p {
 
 .text-black {
   color: black;
+}
+
+.text-align-center {
+  text-align: center;
 }
