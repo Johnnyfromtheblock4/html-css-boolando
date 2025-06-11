@@ -35,6 +35,7 @@ footer {
   margin-top: 100px;
 }
 
+
 /* container */
 .tl-menù {
   display: flex;
@@ -99,8 +100,6 @@ footer {
 }
 
 
-
-
 /* justify-content / align-items */
 .justify-content-around {
   justify-content: space-around;
@@ -113,6 +112,7 @@ footer {
 .flex {
   display: flex;
 }
+
 
 /* padding / margin */
 .p-10 {
@@ -139,6 +139,7 @@ footer {
   margin-bottom: 10px;
 }
 
+
 /* background-color */
 .bg-white {
   background-color: white;
@@ -151,6 +152,7 @@ footer {
 .bg-green {
   background-color: green;
 }
+
 
 /* positions */
 
@@ -174,6 +176,7 @@ footer {
   left: 60px;
 }
 
+
 /* sizes */
 .size-40 {
   font-size: 40px;
@@ -182,6 +185,7 @@ footer {
 .size-20 {
   font-size: 25px;
 }
+
 
 /* text-effects  */
 .text-w {
@@ -202,4 +206,95 @@ footer {
 
 .text-align-center {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* BONUS-1 */
+.detail-container {
+  display: flex;
+  padding: 20px;
+}
+
+.detail-image {
+  position: relative;
+  margin-right: 25px;
+  width: 1000px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.detail-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detail-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.detail-text h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.add-to-cart {
+  background-color: #FF6900;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* utility detail */
+.top-detail {
+  top: 10px;
+}
+
+.right-detail {
+  left: 560px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BONUS-2 */
+.card i.fa-solid.fa-heart {
+  color: black;
+  transition: color 0.3s;
+}
+
+.card i.fa-solid.fa-heart:hover {
+  color: red;
 }
