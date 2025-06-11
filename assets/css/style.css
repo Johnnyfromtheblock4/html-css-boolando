@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  width: 1200 px;
+  width: 100%;
   display: flex;
   color: white;
   background-color: #FF6900;
@@ -17,6 +17,8 @@ header {
   font-weight: bolder;
   box-shadow: 0 2px rgb(146, 146, 146);
   height: 100px;
+  position: fixed;
+  z-index: 1;
 }
 
 /* container */
@@ -39,6 +41,33 @@ header {
   align-items: center;
 }
 
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.col-33 {
+  width: 33%;
+}
+
+.card {
+  position: relative;
+}
+
+/* proprietà */
+.front-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
 
 
 /* justify-content */
