@@ -4,3 +4,57 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 1200 px;
+  display: flex;
+  color: white;
+  background-color: #FF6900;
+  font-size: 20px;
+  font-weight: bolder;
+  box-shadow: 0 2px rgb(146, 146, 146);
+  height: 100px;
+}
+
+/* container */
+.tl-menù {
+  display: flex;
+  align-items: center;
+}
+
+.t-menù {
+  display: flex;
+  align-items: center;
+}
+
+.t-menù img {
+  width: 200px;
+}
+
+.tr-menù {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* justify-content */
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+/* padding/margin */
+.p-10 {
+  padding: 10px;
+}
