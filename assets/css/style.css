@@ -60,6 +60,11 @@ header {
   position: relative;
 }
 
+.card img {
+  width: 650px;
+  padding-bottom: 10px;
+}
+
 /* proprietà */
 .front-image {
   display: block;
@@ -86,4 +91,8 @@ header {
 /* padding/margin */
 .p-10 {
   padding: 10px;
+}
+
+.pt-150 {
+  padding-top: 150px;
 }
