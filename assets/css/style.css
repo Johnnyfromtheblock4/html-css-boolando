@@ -96,3 +96,22 @@ header {
 .pt-150 {
   padding-top: 150px;
 }
+
+/* background-color */
+.bg-white {
+  background-color: white;
+}
+
+/* positions */
+
+.position-absolute {
+  position: absolute;
+}
+
+.top-10 {
+  top: 10px;
+}
+
+.right-0 {
+  right: 0px;
+}
