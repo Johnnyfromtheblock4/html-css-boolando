@@ -13,7 +13,7 @@ header {
   display: flex;
   color: white;
   background-color: #FF6900;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
   box-shadow: 0 2px rgb(146, 146, 146);
   height: 100px;
@@ -68,6 +68,7 @@ main p {
 
 .card img {
   width: 650px;
+  margin-bottom: 5px;
 }
 
 /* proprietà */
@@ -78,6 +79,15 @@ main p {
 .back-image {
   display: none;
 }
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
+}
+
 
 /* justify-content */
 .justify-content-around {
@@ -121,12 +131,12 @@ main p {
   top: 10px;
 }
 
-.right-0 {
+.right-10 {
   right: 10px;
 }
 
-.bottom-65 {
-  bottom: 65px;
+.bottom-125 {
+  bottom: 125px;
 }
 
 .left-60 {
