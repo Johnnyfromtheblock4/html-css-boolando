@@ -80,6 +80,7 @@ footer {
   margin-bottom: 5px;
 }
 
+
 /* proprietà */
 .front-image {
   display: block;
@@ -96,6 +97,8 @@ footer {
 .card:hover .back-image {
   display: block;
 }
+
+
 
 
 /* justify-content / align-items */
