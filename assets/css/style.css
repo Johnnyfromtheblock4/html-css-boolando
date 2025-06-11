@@ -19,6 +19,7 @@ header {
   height: 100px;
   position: fixed;
   z-index: 1;
+  top: 0;
 }
 
 /* container */
@@ -58,11 +59,11 @@ header {
 
 .card {
   position: relative;
+  margin-top: 65px;
 }
 
 .card img {
   width: 650px;
-  padding-bottom: 10px;
 }
 
 /* proprietà */
@@ -93,13 +94,26 @@ header {
   padding: 10px;
 }
 
-.pt-150 {
-  padding-top: 150px;
+.p-25 {
+  padding: 25px;
+}
+
+
+.mt-150 {
+  margin-top: 150px;
 }
 
 /* background-color */
 .bg-white {
   background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
 }
 
 /* positions */
@@ -113,5 +127,23 @@ header {
 }
 
 .right-0 {
-  right: 0px;
+  right: 10px;
+}
+
+.bottom-65 {
+  bottom: 65px;
+}
+
+.left-60 {
+  left: 60px;
+}
+
+/* sizes */
+.size-40 {
+  font-size: 40px;
+}
+
+/* color  */
+.text-w {
+  color: white;
 }
